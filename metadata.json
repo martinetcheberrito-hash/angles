@@ -1,0 +1,8 @@
+
+{
+  "name": "EcomGroup - Arquitecto de Campañas",
+  "description": "Herramienta profesional de EcomGroup para generar ángulos de comunicación y variaciones de anuncios de alta conversión.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
