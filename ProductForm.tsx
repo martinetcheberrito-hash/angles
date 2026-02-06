@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Upload, X, Package, Tag, Users, Info, PlusCircle, Sparkles } from 'lucide-react';
-import { ProductData } from '../types';
+import { ProductData } from './types';
 
 interface ProductFormProps {
   onSubmit: (data: ProductData) => void;
