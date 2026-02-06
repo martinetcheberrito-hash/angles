@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { ProductData, GenerationResult } from "../types";
-import { SYSTEM_INSTRUCTION } from "../constants";
+import { ProductData, GenerationResult } from "./types";
+import { SYSTEM_INSTRUCTION } from "./constants";
 
 export const generateCampaign = async (product: ProductData): Promise<GenerationResult> => {
   /* Initializing GoogleGenAI with the required named parameter and direct process.env.API_KEY reference */
