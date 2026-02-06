@@ -12,10 +12,10 @@ import {
   AlertCircle
 } from 'lucide-react';
 import { AppTab, ProductData, GenerationResult } from './types';
-import ProductForm from './components/ProductForm';
-import CampaignDisplay from './components/CampaignDisplay';
-import HooksLibrary from './components/HooksLibrary';
-import { generateCampaign } from './services/geminiService';
+import ProductForm from './ProductForm';
+import CampaignDisplay from './CampaignDisplay';
+import HooksLibrary from './HooksLibrary';
+import { generateCampaign } from './geminiService';
 
 const Logo = () => (
   <div className="flex items-center gap-3">
