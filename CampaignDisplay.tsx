@@ -10,7 +10,7 @@ import {
   Check,
   Zap
 } from 'lucide-react';
-import { GenerationResult } from '../types';
+import { GenerationResult } from './types';
 
 interface CampaignDisplayProps {
   result: GenerationResult;
