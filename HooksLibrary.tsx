@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Info, Zap } from 'lucide-react';
-import { WINNING_HOOKS_LIBRARY } from '../constants';
+import { WINNING_HOOKS_LIBRARY } from './constants';
 
 const HooksLibrary: React.FC = () => {
   return (
