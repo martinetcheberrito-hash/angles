@@ -26,7 +26,7 @@ export const generateCampaign = async (product: ProductData): Promise<Generation
   };
 
   const response = await ai.models.generateContent({
-    model: 'gemini-1.5-flash',
+    model: 'gemini-pro',
     contents: { parts: [...imageParts, textPart] },
     config: {
       systemInstruction: SYSTEM_INSTRUCTION,
