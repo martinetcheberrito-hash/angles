@@ -5,7 +5,7 @@ import { SYSTEM_INSTRUCTION } from "./constants";
 
 export const generateCampaign = async (product: ProductData): Promise<GenerationResult> => {
   /* Initializing GoogleGenAI with the required named parameter and direct process.env.API_KEY reference */
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
   
   const imageParts = product.images.map(img => ({
     inlineData: {
